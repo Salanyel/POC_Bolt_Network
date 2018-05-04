@@ -263,6 +263,9 @@
     <Reference Include="bolt">
       <HintPath>Assets/bolt/assemblies/bolt.dll</HintPath>
     </Reference>
+    <Reference Include="bolt.user">
+      <HintPath>Assets/bolt/assemblies/bolt.user.dll</HintPath>
+    </Reference>
     <Reference Include="bolt.compiler">
       <HintPath>Assets/bolt/assemblies/editor/bolt.compiler.dll</HintPath>
     </Reference>
@@ -314,9 +317,6 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/maxim/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="bolt.user">
-      <HintPath>Assets/bolt/assemblies/bolt.user.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\bolt\scripts\aoi\BoltAOI.cs" />
@@ -330,6 +330,7 @@
     <Compile Include="Assets\bolt\scripts\BoltUnityDebugDrawer.cs" />
     <Compile Include="Assets\bolt\scripts\upnp\BoltUPnP.cs" />
     <Compile Include="Assets\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UILibrary.cs" />
   </ItemGroup>
   <ItemGroup>

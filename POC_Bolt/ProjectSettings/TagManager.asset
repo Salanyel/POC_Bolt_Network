@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - EndPoint
+  - P1Score
+  - P2Score
   layers:
   - Default
   - TransparentFX

@@ -14,3 +14,4 @@ MonoBehaviour:
   DatabaseMode: 0
   Prefabs:
   - {fileID: 0}
+  - {fileID: 1229852537682674, guid: 861e33797d455c84283294ffe421a182, type: 2}
